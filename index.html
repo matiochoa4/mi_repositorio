@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <!-- Required meta tags -->
+    <!-- Meta tags -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -49,13 +49,12 @@
       class="navbar navbar-expand-lg navbar-light bg-light pt-0 pb-0"
       id="menu"
     >
-      <div style="background-color: #132c33" class="container-fluid p-4">
+      <div class="container-fluid p-4 shadow">
         <a class="navbar-brand" href="/index.html"
           ><span class="fs-3S fw-bold">FULBO ARGENTINO</span></a
         >
         <button
-          style="background-color: #b3e3f0"
-          class="navbar-toggler"
+          class="navbar-toggler menubuttons"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -78,11 +77,7 @@
               >
                 Primera
               </a>
-              <ul
-                style="background-color: #132c33"
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-              >
+              <ul class="dropdown-menu ulbkg" aria-labelledby="navbarDropdown">
                 <li>
                   <a
                     class="dropdown-item"
@@ -106,11 +101,7 @@
               >
                 Ascenso
               </a>
-              <ul
-                style="background-color: #132c33"
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-              >
+              <ul class="dropdown-menu ulbkg" aria-labelledby="navbarDropdown">
                 <li>
                   <a class="dropdown-item" href="/secciones/ascenso.html"
                     >Ascenso</a
@@ -134,11 +125,7 @@
               >
                 Copa Argentina
               </a>
-              <ul
-                style="background-color: #132c33"
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-              >
+              <ul class="dropdown-menu ulbkg" aria-labelledby="navbarDropdown">
                 <li>
                   <a class="dropdown-item" href="/secciones/copaargentina.html"
                     >Copa Argentina</a
@@ -160,11 +147,7 @@
               >
                 Copas Internacionales
               </a>
-              <ul
-                style="background-color: #132c33"
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-              >
+              <ul class="dropdown-menu ulbkg" aria-labelledby="navbarDropdown">
                 <li>
                   <a
                     class="dropdown-item"
@@ -189,8 +172,7 @@
               aria-label="Search"
             />
             <button
-              style="background-color: #b3e3f0"
-              class="btn btn-primary-outline-success"
+              class="btn btn-primary-outline-success menubuttons"
               type="submit"
             >
               <img class="imagesize" src="/images/search.png" alt="search" />
@@ -297,8 +279,7 @@
     <!-- Publicidad -->
 
     <section
-      style="background-color: #b3e3f0"
-      class="container-fluid d-flex justify-content-center"
+      class="container-fluid d-flex justify-content-center menubuttons"
     >
       <figure class="figure">
         <figcaption class="figure-caption fs-4 text-center">
@@ -316,51 +297,60 @@
 
     <!-- Noticias variedad -->
 
-    <div class="card-group">
-      <div class="card">
-        <img src="/images/noticia1.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Noticia 1</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-          <p class="card-text">
-            <small class="text-muted"
-              >Última actualización: Hace 3 minutos</small
-            >
-          </p>
+    <div class="bkgvariedad">
+      <div class="card-group">
+        <div class="card cardcolor m-3">
+          <img
+            src="/images/noticia1.jpg"
+            class="card-img-top variedadpadd"
+            alt="noticia1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Noticia 1</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small>Última actualización: Hace 3 minutos</small>
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="/images/noticia1.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Noticia 2</h5>
-          <p class="card-text">
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </p>
-          <p class="card-text">
-            <small class="text-muted"
-              >Última actualización: Hace 5 minutos</small
-            >
-          </p>
+        <div class="card cardcolor m-3">
+          <img
+            src="/images/noticia1.jpg"
+            class="card-img-top variedadpadd"
+            alt="noticia2"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Noticia 2</h5>
+            <p class="card-text">
+              This card has supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <p class="card-text">
+              <small>Última actualización: Hace 5 minutos</small>
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="/images/noticia1.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Noticia 3</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-          <p class="card-text">
-            <small class="text-muted"
-              >Última actualización: Hace 11 minutos</small
-            >
-          </p>
+        <div class="card cardcolor m-3">
+          <img
+            src="/images/noticia1.jpg"
+            class="card-img-top variedadpadd"
+            alt="noticia3"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Noticia 3</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This card has even longer content
+              than the first to show that equal height action.
+            </p>
+            <p class="card-text">
+              <small>Última actualización: Hace 11 minutos</small>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -411,7 +401,6 @@
               href="https://www.google.com/maps/search/Av.+San+Juan+1132+C1147+AAW+Buenos+Aires/@-34.6223614,-58.3821998,17.5z?hl=es-419"
             >
               <img
-                style="margin-bottom: 1rem"
                 class="map"
                 src="/images/mapa.png"
                 alt="Location"
@@ -424,7 +413,7 @@
         <h3>Términos y Condiciones</h3>
         <h3>Normas de Privacidad y Confidencialidad</h3>
         <h3>Trabaja con Nosotros</h3>
-        <a style="text-decoration: none" href="/secciones/newsletter.html">
+        <a href="/secciones/newsletter.html">
           <h3>Newsletter</h3>
         </a>
       </div>

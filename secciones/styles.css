@@ -231,6 +231,7 @@ footer {
 .map {
   width: 21rem;
   height: 15rem;
+  margin-bottom: 1rem;
 }
 
 .footerbar {
@@ -329,6 +330,21 @@ html {
   background-color: #126e82;
 }
 
+.shadow {
+  box-shadow: 10rem 10rem bottom #b3e3f0;
+}
+
+nav div {
+  background-color: #132c33;
+}
+
+.menubuttons {
+  background-color: #b3e3f0;
+}
+
+.ulbkg {
+  background-color: #132c33;
+}
 /* Carousel */
 
 .bannertext {
@@ -349,6 +365,19 @@ html {
   padding-bottom: 2rem;
 }
 
+/* noticias variedad */
+
+.variedadpadd {
+  padding: 1rem;
+}
+
+.bkgvariedad {
+  background-color: #b3e3f0;
+}
+
+.cardcolor {
+  background-color: #126e82;
+}
 /* Footer */
 
 .org {
@@ -360,4 +389,65 @@ html {
 .org li {
   list-style-type: none;
   font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* formulario */
+
+.formcolor {
+  background-color: #b3e3f0;
+}
+
+.btngap {
+  gap: 1rem;
+}
+
+.inputcolor {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.coparg {
+  background-color: #132c33;
+  color: #b3e3f0;
+}
+
+/* copa argentina */
+
+.carrusel {
+  background: linear-gradient(to top, #132c33, #126e82);
+  padding: 1rem;
+}
+
+.tablecontainer {
+  padding: 1rem;
+  background-color: #132c33;
+}
+
+.bkgnoticias {
+  background: linear-gradient(to bottom, #b3e3f0, #126e82);
+}
+
+.h1color {
+  color: #b3e3f0;
+}
+
+/* copas internacionales */
+
+.copasin {
+  border: 2px solid #132c33;
+  background-color: #b3e3f0;
+}
+
+.txtcolor {
+  color: #b3e3f0;
+}
+
+h1 {
+  color: #132c33;
+  margin: 0px;
 }
