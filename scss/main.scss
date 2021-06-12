@@ -1,0 +1,217 @@
+$fontcolor: #b3e3f0;
+@mixin imgsize {
+  width: 2rem;
+  height: 2rem;
+}
+@mixin paddin1rem {
+  padding: 1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Bebas Neue", cursive;
+  footer {
+    background-color: #132c33;
+    color: $fontcolor;
+    font-size: 2rem;
+  }
+}
+
+/* header */
+
+.logo {
+  border-radius: 5px;
+  width: 15rem;
+  height: 8.91rem;
+  grid-area: 1 / 1;
+}
+
+.imagesize {
+  @include imgsize;
+}
+
+/* footer */
+
+.map {
+  width: 21rem;
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+
+.footerbar {
+  padding: 0px;
+  background-color: #126e82;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  gap: 25px;
+  h3 {
+    margin: 5px;
+    color: $fontcolor;
+  }
+}
+
+/* formulario newsletter */
+
+button {
+  font-size: 1.5rem;
+  font-style: oblique;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  .hover:hover {
+    cursor: pointer;
+  }
+}
+
+/* ============================== */
+
+/* Add CSS post Bootstrap */
+
+.imgcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* menu */
+
+.headerbkgcolor {
+  background: linear-gradient(to bottom, #132c33, #126e82);
+}
+
+#menu a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #b3e3f0;
+}
+
+.shadow {
+  box-shadow: 10rem 10rem bottom $fontcolor;
+}
+
+nav div {
+  background-color: #132c33;
+  .dropdown-menu li a:hover {
+    background-color: #126e82;
+  }
+}
+
+.menubuttons {
+  background-color: $fontcolor;
+}
+
+.ulbkg {
+  background-color: #132c33;
+}
+/* Carousel */
+
+.bannertext {
+  text-align: center;
+  background-color: #132c33;
+  text-decoration: none;
+  opacity: 75%;
+}
+
+.carruselmargin {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.bannercontainer {
+  background: linear-gradient(to top, #132c33, #126e82);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* noticias variedad */
+
+.variedadpadd {
+  @include paddin1rem;
+}
+
+.bkgvariedad {
+  background-color: $fontcolor;
+}
+
+.cardcolor {
+  background-color: #126e82;
+}
+/* Footer */
+
+.org {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  li {
+    list-style-type: none;
+    font-size: 15px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/* formulario */
+
+.formcolor {
+  @extend.bkgvariedad;
+}
+
+.btngap {
+  gap: 1rem;
+}
+
+.inputcolor {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.coparg {
+  background-color: #132c33;
+  color: #b3e3f0;
+}
+
+/* copa argentina */
+
+.carrusel {
+  background: linear-gradient(to top, #132c33, #126e82);
+  @include paddin1rem;
+}
+
+.tablecontainer {
+  @include paddin1rem;
+  background-color: #132c33;
+}
+
+.bkgnoticias {
+  background: linear-gradient(to bottom, $fontcolor, #126e82);
+}
+
+.h1color {
+  color: $fontcolor;
+}
+
+/* copas internacionales */
+
+.copasin {
+  border: 2px solid #132c33;
+  background-color: $fontcolor;
+}
+
+.txtcolor {
+  color: $fontcolor;
+}
+
+h1 {
+  color: #132c33;
+  margin: 0px;
+}
+
+
