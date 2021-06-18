@@ -33,7 +33,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
-  gap: 25px; }
+  gap: 15px; }
   .footerbar h3 {
     margin: 5px;
     color: #b3e3f0; }
@@ -155,3 +155,16 @@ a {
 h1 {
   color: #132c33;
   margin: 0px; }
+
+.row {
+  margin: 0; }
+
+@media (max-width: 768px) {
+  .baimap, .finalnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media (max-width: 768px) {
+  .textalign, .finalnav {
+    text-align: center; } }
