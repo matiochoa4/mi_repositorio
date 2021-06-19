@@ -219,6 +219,8 @@ h1 {
   margin: 0;
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 768px) {
   .baimap {
     display: flex;
@@ -237,5 +239,21 @@ h1 {
   .finalnav {
     @extend .baimap;
     @extend .textalign;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .tables {
+    background-color: #132c33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

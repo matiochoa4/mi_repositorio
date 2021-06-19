@@ -159,6 +159,7 @@ h1 {
 .row {
   margin: 0; }
 
+/* MEDIA QUERIES */
 @media (max-width: 768px) {
   .baimap, .finalnav {
     display: flex;
@@ -168,3 +169,15 @@ h1 {
 @media (max-width: 768px) {
   .textalign, .finalnav {
     text-align: center; } }
+
+@media (max-width: 768px) {
+  .texto {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 768px) {
+  .tables {
+    background-color: #132c33;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
